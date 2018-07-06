@@ -21,9 +21,9 @@ The event is structured with the following attributes
 * Action : The file and public function that is executed.
 
 *Values*
-* Code   : shipping_disablerate
-* Trigger: catalog/controller/checkout/shipping_method/after
-* Action : event/shippingrate/disablerate
+* Code   : inject_scripts
+* Trigger: catalog/view/common/footer/after
+* Actions: event/insertcookieconsent/inject_cookieconsent
 
 ## Remarks
 - It is always recommended that you create a backup of your files and database before applying changes.
